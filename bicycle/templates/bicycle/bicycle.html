@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <img class="img" src="{% static 'images/bic.png' %}" alt="이미지">
+    <h1 class="t">따릉이 대여 현황</h1>
+    <button onclick="q2()" type="button" class="btn btn-outline-dark b">업데이트</button>
+    <table class="bicy">
+        <thead>
+            <tr>
+            <td class="first cent">지역</td>
+            <td class="second cent"> 거치대 수</td>
+            <td class="third cent">현재 거치된 수</td>
+            </tr>
+        </thead>
+        <tbody id="names_q2">
+        </tbody>
+    </table>
+</div>
+{% endblock %}

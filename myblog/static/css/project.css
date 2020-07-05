@@ -1,3 +1,93 @@
-h1 {
-    color: orange;
+*{
+    font-family: 'Sunflower', sans-serif;
+}
+
+.bg-light{
+    background-color: wheat !important;
+}
+.navbar-brand{
+    color: blue !important;
+}
+.nav-link{
+    color: mediumblue !important; 
+}
+h1{
+    margin-top: 10px;
+}
+
+.mainimg{
+    height: 200px;
+    width: 390px;
+    float: left;
+}
+.mainimg_1{
+    margin-left: 20%;
+    height: 320px;
+    width: 400px;
+}
+
+.img{
+    height: 600px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.img_1{
+    height: 380px;
+    margin-left: 20%;
+}
+
+.t{
+    text-align: center;
+}
+
+.b{
+    margin-left: 47%;
+}
+.cent{
+    text-align: center;
+}
+table {
+    margin-top: 10px;
+    margin-left: 40%;
+    border: 1px solid; border-collapse: collapse;
+    }
+    
+.re{
+    width: 80px;
+}
+
+table.bicy{
+    margin-top: 10px;
+    margin-left: 29%;
+    border: 1px solid; border-collapse: collapse;
+}
+td, th {
+    padding: 10px; border: 1px solid;
+    font-weight: bold;
+    }
+.first{
+    width: 250px;
+}
+.second{
+    width: 90px;
+}
+.third{
+    width: 140px;
+}
+.good{
+    color: blue;
+}
+
+.soso{
+    color: green;
+}
+
+.warning{
+    color: yellow;
+}
+
+.bad{
+    color: red;
+    font-weight: bold;
 }

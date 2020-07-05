@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
 # Create your views here.
-def profile(request):
-    return render(request, 'introduction/profile.html')
+def mise(request):
+    return render(request, 'introduction/mise.html')

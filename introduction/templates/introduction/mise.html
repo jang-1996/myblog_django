@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+<img class="img" src="{% static 'images/img_0.png' %}" alt="이미지">
+<h1 class="t">서울시 미세먼지 현황</h1>
+<button onclick="q1()" type="button" class="btn btn-outline-dark b">업데이트</button>
+
+<table>
+    <thead>
+        <tr>
+            <td class="re cent">지역</td>
+            <td class="re cent">지수</td>
+            <td class="re cent">등급</td>
+        </tr>
+    </thead>
+    <tbody id="names_q1">
+    </tbody>
+</table>
+</div>
+{% endblock %}
