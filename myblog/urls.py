@@ -22,4 +22,5 @@ urlpatterns = [
     path('introduction/', include('introduction.urls')),
     path('bicycle/', include('bicycle.urls')),
     path('', views.main, name="main"),
+    path('posts/', include('posts.urls')),
 ]
